@@ -15,7 +15,9 @@ This template was created for a university club, Y Community Service.
 ```
     $ python manage.py
 ```
-
+## Credits
+1. The app used Login and Register Modal as the basis for the login and registration frontend
+https://www.creative-tim.com/product/login-and-register-modal
 
 
 
