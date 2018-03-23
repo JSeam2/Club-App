@@ -78,110 +78,112 @@
 /*     background-color: #eeeeee; */
 }
 .login .division {
-    float: none;
-    margin: 0 auto 18px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100%;
+  float: none;
+  margin: 0 auto 18px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 .login .division .line {
-    border-top: 1px solid #DFDFDF;
-    position: absolute;
-    top: 10px;
-    width: 34%;
+  border-top: 1px solid #DFDFDF;
+  position: absolute;
+  top: 10px;
+  width: 34%;
 }
 .login .division .line.l {
-    left: 0;
+  left: 0;
 }
 .login .division .line.r {
-    right: 0;
+  right: 0;
 }
 .login .division span {
-    color: #424242;
-    font-size: 17px;
+  color: #424242;
+  font-size: 17px;
 }
 .login .box .social {
-    float: none;
-    margin: 0 auto 30px;
-    text-align: center;
+  float: none;
+  margin: 0 auto 30px;
+  text-align: center;
 }
 
 .login .social .circle{
-    background-color: #EEEEEE;
-    color: #FFFFFF;
-    border-radius: 100px;
-    display: inline-block;
-    margin: 0 17px;
-    padding: 15px;
+  background-color: #EEEEEE;
+  color: #FFFFFF;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 17px;
+  padding: 15px;
 }
 .login .social .circle .fa{
-    font-size: 16px;
+  font-size: 16px;
 }
 .login .social .facebook{
-    background-color: #455CA8;
-    color: #FFFFFF;
+  background-color: #455CA8;
+  color: #FFFFFF;
 }
 .login .social .google{
-    background-color: #F74933;
+  background-color: #F74933;
 }
 .login .social .github{
-    background-color: #403A3A;
+  background-color: #403A3A;
 }
 .login .facebook:hover{
-    background-color: #6E83CD;
+  background-color: #6E83CD;
 }
 .login .google:hover{
-    background-color: #FF7566;
+  background-color: #FF7566;
 }
 .login .github:hover{
-    background-color: #4D4D4d;;
+  background-color: #4D4D4d;;
 }
 .login .forgot {
-    color: #797979;
-    margin-left: 0;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
+  color: #797979;
+  margin-left: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
 }
 .login .btn-login, .registerBox .btn-register{
-    background-color: #ef3c4d;
-    border-color: #ef3c4d;
-    border-width: 0;
-    color: #FFFFFF;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 50px;
-    text-transform: uppercase;
-    width: 100%;
+  background-color: #ef3c4d;
+  border-color: #ef3c4d;
+  border-width: 0;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  width: 100%;
 }
 .login .btn-login:hover, .registerBox .btn-register:hover{
-    background-color: #00A4E4;
-    color: #FFFFFF;
+  background-color: #bc2b2c;
+  color: #FFFFFF;
 }
 .login .form-control{
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.09);
-    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
-    color: #FFFFFF;
+  border-radius: 3px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  color: #333333;
 }
 .login .form-control:hover{
-    background-color: rgba(0,0,0,.16);
+  color: #333333;
+  background-color: rgba(0,0,0,.16);
 }
 .login .form-control:focus{
-    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.04) inset;
-    background-color: rgba(0,0,0,0.23);
-    color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.04) inset;
+  background-color: rgba(0,0,0,0.23);
+  color: #333333;
 }
-.login .box .form input[type="text"], .login .box .form input[type="password"] {
-    border-radius: 3px;
-    border: none;
-    color: #333333;
-    font-size: 16px;
-    height: 46px;
-    margin-bottom: 5px;
-    padding: 13px 12px;
-    width: 100%;
+.login .box .form input[type="email"], .login .box .form input[type="password"] {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 16px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 100%;
 }
 
 .modal-title{
